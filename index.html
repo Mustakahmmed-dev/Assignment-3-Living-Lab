@@ -13,6 +13,9 @@
     <!-- Tailwind CDN -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/e73963d6b2.js" crossorigin="anonymous"></script>
+
     <style>
         .sora-font{
             font-family: "Sora", serif;
@@ -22,7 +25,34 @@
         }
     </style>
 </head>
-<body>
-    <h1 class="text-3xl text-center">Hi, Assignment 3</h1>
+<body class="sora-font">
+    <header>
+        <!-- Navbar -->
+        <div class="bg-[#FFF9F4]">
+            <nav class="w-[100%] px-6 lg:max-w-[80%] mx-auto flex justify-between py-8 items-center">
+                <div class="flex gap-3 items-center">
+                    <img src="c1-assets/logo-header.png" alt="">
+                    <h2 class="hidden lg:block text-2xl font-medium text-[#111111]">Browse<span class="text-[#FFDC26]">4</span>Pets</h2>
+                </div>
+                <ul class="hidden md:flex gap-7 text-xl text-[#111111]">
+                    <li><a href="">Find a pet</a></li>
+                    <li><a href="">Breeds</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+                <div class="hidden md:flex items-center space-x-3 font-normal text-xl text-[#111111]">
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button class=" py-2 px-6 bg-white, border-2 border-[#FFDC26] outline-none rounded-lg">Login</button>
+                    <button class=" py-2 px-6 bg-white, border-2 bg-[#FFDC26] border-none rounded-lg">Register</button>
+                </div>
+                <div class="md:hidden">
+                    <i class="fa-solid fa-bars text-3xl"></i>
+                </div>
+            </nav>
+        </div>
+
+        
+    </header>
+
 </body>
 </html>
