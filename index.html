@@ -199,26 +199,26 @@
         </div>
 
         <!-- Everyday low price section -->
-         <div class="max-w-[90%] lg:max-w-[80%] mx-auto">
+         <div class="max-w-[90%] lg:max-w-[80%] my-12 mx-auto">
             <h1 class="text-2xl mb-8 adlam-font font-normal">Everyday Low Price</h1>
 
             <div class="flex flex-col md:flex-row gap-6">
-                <div class=" flex flex-grow items-center gap-3 rounded-lg pt-5 px-6 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
+                <div class=" flex md:flex-grow justify-between items-center rounded-lg py-5 px-4 md:px-10 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
                     <div class="space-y-3">
-                        <p class="text-xl font-normal sora-font">Under Price</p>
-                        <h2 class="adlam-font font-normal text-2xl">Pet Grooming Mitt</h2>
-                        <p class="font-normal text-xl text-white adlam-font">(Easy Hair Removal)</p>
-                        <h2 class="font-normal text-3xl adlam-font">$7.99</h2>
+                        <p class=" text-base md:text-xl font-normal sora-font">Under Price</p>
+                        <h2 class="adlam-font font-normal text-xl md:text-2xl">Pet Grooming Mitt</h2>
+                        <p class="font-normal text-base md:text-xl text-white adlam-font">(Easy Hair Removal)</p>
+                        <h2 class="font-normal text-xl md:text-3xl adlam-font">$7.99</h2>
                     </div>
-                    <img class="w-[200px]" src="c1-assets/cute-dog-mid.png" alt="">
+                    <img class="w-[120px] md:w-[250px]" src="c1-assets/cute-dog-mid.png" alt="">
                 </div>
 
                 <div class=" flex gap-3 rounded-lg pt-10 px-6 bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]">
                     <div class="space-y-3">
-                        <h2 class="adlam-font font-normal text-2xl">Pet Grooming Mitt</h2>
-                        <h2 class="font-normal text-3xl adlam-font text-orange-300">$7.99</h2>
+                        <h2 class="adlam-font font-normal text-xl md:text-2xl">Pet Grooming Mitt</h2>
+                        <h2 class="font-normal text-xl md:text-3xl adlam-font text-orange-300">$7.99</h2>
                     </div>
-                    <img class="w-[200px]" src="c1-assets/cute-pet-small.png" alt="">
+                    <img class="w-[120px]" src="c1-assets/cute-pet-small.png" alt="">
                 </div>
 
             </div>
@@ -226,7 +226,37 @@
 
          </div>
 
-         
+         <!-- Get Awesome News section -->
+          <div class="max-w-[80%] mx-auto">
+
+           <div class="flex flex-col md:flex-row gap-24 bg-[#FFF9F4] py-9 px-3 md:px-20">
+            <img src="c1-assets/cute-pet-mid.png" alt="">
+            <div class="space-y-5 flex-grow">
+                <h1 class="text-3xl font-normal adlam-font">Get Awesome News</h1>
+                <p class="text-xl font-normal sora-font">Exclusive training tips, ticks, product deals and more.</p>
+                <form action="">
+                    <input class="block p-5 outline-green-500 bg-white w-[80%] rounded my-12" type="email" id="email" name="Email" placeholder="Enter email">
+                    <button class="py-4 px-8 bg-[#FFDC26] rounded-lg transition focus:bg-black focus:text-white font-normal text-xl cursor-pointer" type="submit">Subscribe</button>
+                </form>
+            </div>
+
+           </div>
+          </div>
     </main>
+
+    <footer class="bg-[#FFDC2680]/50">
+        <div class="max-w-[80%] mx-auto">
+            <div class="grid">
+                <div class="flex items-center gap-2">
+                    <img src="c1-assets/logo-footer.png" alt="">
+                    <h2 class="text-2xl font-normal">Browse Pets</h2>
+                </div>
+                <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+
+            </div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+        </div>
+    </footer>
 </body>
 </html>
